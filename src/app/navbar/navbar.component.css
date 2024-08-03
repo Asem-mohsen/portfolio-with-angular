@@ -1,0 +1,7 @@
+nav {
+  background-color: var(--second-color);
+  transition: 0.6s padding;
+}
+.nav-link {
+  cursor: pointer;
+}

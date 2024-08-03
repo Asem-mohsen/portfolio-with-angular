@@ -1,0 +1,15 @@
+.__top {
+  top: 40px !important;
+}
+label {
+  color: var(--main-color);
+  margin-bottom: 7px;
+  transition: 0.6s top;
+}
+.border-bottom {
+  border-bottom: var(--bs-border-width) var(--bs-border-style)
+    var(--bs-border-color) !important;
+}
+input.form-control:focus {
+  box-shadow: none;
+}

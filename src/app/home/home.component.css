@@ -1,0 +1,7 @@
+.home {
+  background-color: var(--main-color);
+  min-height: inherit;
+}
+img {
+  width: 250px;
+}
