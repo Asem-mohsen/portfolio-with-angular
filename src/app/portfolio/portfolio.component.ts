@@ -21,16 +21,16 @@ export class PortfolioComponent {
     {img:'../../assets/imgs/port3.png'},
   ];
 
-  isModalOpen = false;
-  selectedImage: string | null = null;
+  isModalOpen: boolean = false;
+  selectedImage: string = '';
 
-  openModal(imageSrc: string) {
+  openModal(imageSrc: string): void {
     this.selectedImage = imageSrc;
     this.isModalOpen = true;
   }
 
-  closeModal() {
+  closeModal(): void {
     this.isModalOpen = false;
-    this.selectedImage = null;
+    this.selectedImage = '';
   }
 }
